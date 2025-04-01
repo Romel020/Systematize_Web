@@ -70,10 +70,30 @@
 
 }
 
+.ul li ul.dropdown li {
+	display: block;
+}
+
+ul li ul.dropdown {
+width: 100%;
+background: Navy;
+position: absolute;
+z-index: 999;
+display: none;
+}
+
+ul li:hover ul.dropdown {
+display: block;
+}
+
 /* Change color on hover */
 .topnav a:hover {
   background-color: yellow;
   color: black;
+}
+
+ul li a:hover {
+background: Navy;
 }
 
 /* Create two unequal columns that floats next to each other */
