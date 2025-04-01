@@ -82,13 +82,14 @@ z-index: 999;
 display: none;
 }
 
-ul li:hover ul.dropdown {
-display: block;
+.dropdown a {
+	display:block;
+	color: white;
+	text-decoration: none;
+	padding: 10px 15px;
 }
 
-ul li a:hover {
-background: Navy;
-}
+
 	
 /* Change color on hover */
 .topnav a:hover {
@@ -295,11 +296,12 @@ p.thick {
   <a href="https://Romel020.github.io/Systematize_Web/WEB_2.html#">TVL ICT</a>
   <a href=" ">TVL HE</a>
     <li>
-     <a href="#">Picture Gallery</a>
        <div class="dropdown">
-        <a href="https://Romel020.github.io/Systematize_Web/Picturegallery.html">ICT</a>
-        <a href="https://Romel020.github.io/Systematize_Web/Picturegallery2.html">HE</a>
-      
+	<button>Picture Gallery</button>
+        <div class="content">
+           <a href="https://Romel020.github.io/Systematize_Web/Picturegallery.html">ICT</a>
+           <a href="https://Romel020.github.io/Systematize_Web/Picturegallery2.html">HE</a>
+	</div>
        </div>	
  </div>
 
